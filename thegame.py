@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
 def the_game():
-  return '<p>THE GAME</p>'
+  return render_template('root.html')
