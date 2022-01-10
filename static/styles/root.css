@@ -1,0 +1,9 @@
+.root-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.root-image, .root-heading, .root-note {
+  align-self: center;
+}
